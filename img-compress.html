@@ -55,16 +55,19 @@
             margin: 2rem 0;
         }
 
-        ad-section {
-            margin: 2rem auto;
-            padding: 1.5rem 1rem;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-            border: 1px solid #e2e8f0;
-            max-width: 1200px;
+        .upload-section {
+            text-align: center;
+            border: 3px dashed var(--primary);
+            border-radius: 15px;
+            padding: 3rem 1rem;
+            margin: 2rem 0;
+            transition: all 0.3s ease;
         }
-        
+
+        .upload-section:hover {
+            background: #f8fbff;
+            border-color: var(--secondary);
+        }
 
         #image-input {
             display: none;
